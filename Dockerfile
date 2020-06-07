@@ -6,3 +6,4 @@ RUN apt update && apt install -y ssh && apt-get -y clean
 LABEL at.pasztor.containerssh.shellwrapper=false
 
 ENTRYPOINT ["/bin/sh", "-c"]
+CMD ["/bin/bash"]
